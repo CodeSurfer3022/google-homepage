@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+#top-nav {
+    list-style-type: none;
+    margin: 10px 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#top-nav li {
+    float: right;
+    height: 40px;
+}
+
+#top-nav a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: medium;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#grid {
+    height: 20px;
+    width: 20px;
+}
+
+main {
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#google-logo {
+    width: 250px;
+    height: 90px;
+}
+
+#search-box {
+    display: block;
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    border: 0.5px solid gray;
+    margin: 10px;
+}
+
+#search-button, #lucky-button {
+    background-color: rgba(240, 240, 240, 0.788);
+    color: "dark gray";
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 20px 5px;
+} 
+
+#langs {
+    font-size: 15px;
+    color: darkgray;
+    padding: 10px;
+}
+
+main a {
+    color: blue;
+    padding: 5px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(240, 240, 240, 0.788);
+    border-top: 0.01px solid gray;
+}
+
+footer div {
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 0.017px solid darkgray;
+}
+
+footer p {
+    position: relative;
+    left: 20px;
+    color:rgba(65, 62, 62, 0.596) ;
+    padding: 10px;
+}
+
+footer ul {
+    height: 40px;
+}
+
+footer li{
+    text-align: center;
+
+}
+
+footer a{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgba(65, 62, 62, 0.596);
+}
+footer .left {
+    position: relative;
+    left: 20px;
+    float: left;
+}
+
+footer .right {
+    position: relative;
+    right: 20px;
+    float: right;
+}
+
+
