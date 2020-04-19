@@ -10,7 +10,7 @@
         <nav>
             <ul id="top-nav">
                 <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/">
-                    <img id="profile-pic" src="profile.png" alt="profile photo"></a></li>
+                    <img id="profile-pic" src="assets/profile.png" alt="profile photo"></a></li>
                 <li><a href="https://www.google.co.in/intl/en/about/products?tab=wh">
                         <img id="grid" src="grid.png" alt="grid icon"></a></li>
                 <li><a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a></li>
@@ -19,11 +19,32 @@
         </nav>
 
         <main>
-            <img id="google-logo" src="./google_logo.png" alt="google logo"/>
+            <img id="google-logo" src="assets/google_logo.png" alt="google logo"/>
             <form>
-                <input type="text" id="search-box" name="search-box">
-                <input type="submit" id="search-button" value="Google search">
-                <input type="submit" id="lucky-button" value="I'm feeling lucky">
+                <div>
+                    <div id="search-box">
+                        <div id="search-text">
+                            <div id="glass">
+                                <span id="svgSpan">
+                                    <svg>
+                                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div id="query-box">
+                                <input type="text" id="query" name="query">
+                            </div>    
+                            <div id="mic">
+                                <span id="micSpan"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" id="search-button" value="Google search">
+                    <input type="submit" id="lucky-button" value="I'm feeling lucky">
+                </div>
+                
                 
             </form>
             <div id="langs">
@@ -31,7 +52,7 @@
                 <a href="#">Hindi</a>
                 <a href="#">Telugu</a>
                 <a href="#">Tamil</a>
-                <a href="#">Telugu</a>
+                <a href="#">Kannada</a>
             </div>
             
         </main>
