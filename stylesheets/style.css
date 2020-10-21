@@ -182,16 +182,14 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0px;
-    background-color: rgba(240, 240, 240, 0.788);
-    border-top: 0.01px solid gray;
+    background-color: rgba(240, 240, 240, 0.8);
 }
 
 footer div {
     margin: 0;
     height: 40px;
     width: 100%;
-    border-top: 0.2px solid rgba(0, 0, 0, 0.527);
-    border-bottom: 0.2px solid rgba(0, 0, 0, 0.527);
+    border-top: 1px solid #e4e4e4;;
 }
 
 footer p {
